@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+  <%- include('./partials/head'); -%>
+
+  <body>
+    <%- include('./partials/header'); -%>
+
+    <main>
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide"
+        data-bs-ride="true"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="/images/Messi.jpg" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="/images/Imagengrande.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img src="/images/adidas.jpg" class="d-block w-100" alt="..." />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <div class="contenete">
+        <h2 class="h2">MEJORES OUTFITS DE MARCAS</h2>
+        <!--LO QUE QUIERO HACER ACA ES CLICKEAR EN ALGUNA MARCA Y QUE ME APAREZCA EN LA MISMA PAGINA 5 PRENDAS DIFERENTES DE ESA MARCA -->
+        <ul class="classul">
+          <li class="classli">
+            <a href="carrito.html" class="classA">Adidas</a>
+          </li>
+          <li class="classli">
+            <a href="paginanike.com" class="classA">Nike</a>
+          </li>
+          <li class="classli">
+            <a href="paginapuma.com" class="classA">Puma</a>
+          </li>
+          <li class="classli">
+            <a href="paginafila.com" class="classA">Fila</a>
+          </li>
+          <li class="classli">
+            <a href="paginaTopper.com" class="classA">Topper</a>
+          </li>
+          <li class="classli">
+            <a href="paginareebok.com" class="classA">Reebok</a>
+          </li>
+        </ul>
+      </div>
+      <!--TODAVÍA NO LO VIMOS PERO LO DEJO PENDIENTE PARA CUANDO SEPAMOS HACERLO. -->
+      <br />
+      <br />
+      <section class="carrusel">
+        <div class="carrusel2">
+          <h3 class="ache3">RECOMENDADOS</h3>
+          <div class="medio">
+            <a
+              class="btn-primary2"
+              href="#carouselExampleIndicators2"
+              role="button"
+              data-slide="prev"
+            >
+              <i class="fa fa-arrow-left"></i>
+            </a>
+            <a
+              class="btn-primary2"
+              href="#carouselExampleIndicators2"
+              role="button"
+              data-slide="next"
+            >
+              <i class="fa fa-arrow-right"></i>
+            </a>
+          </div>
+          <div class="col-12">
+            <div
+              id="carouselExampleIndicators2"
+              class="carousel slide"
+              data-ride="carousel"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="row">
+                    <div class="col-md-4 mb-3">
+                      <div class="card">
+                        <img
+                          class="img-fluid"
+                          alt="100%x280"
+                          src="/images/pibex.jpg"
+                        />
+                        <div class="card-body">
+                          <h4 class="card-title">Special title treatment</h4>
+                          <p class="card-text">
+                            With supporting text below as a natural lead-in to
+                            additional content.
+                          </p>
+                          <button type="button" class="btn btn-dark">
+                            <a
+                              href="http://localhost:3001/producto"
+                              class="ultimo"
+                              >Comprar</a
+                            >
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                      <div class="card">
+                        <img
+                          class="img-fluid"
+                          alt="100%x280"
+                          src="/images/pantalonete.jpg"
+                        />
+                        <div class="card-body">
+                          <h4 class="card-title">Special title treatment</h4>
+                          <p class="card-text">
+                            With supporting text below as a natural lead-in to
+                            additional content.
+                          </p>
+                          <button type="button" class="btn btn-dark">
+                            <a
+                              href="http://localhost:3001/producto"
+                              class="ultimo"
+                              >Comprar</a
+                            >
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                      <div class="card">
+                        <img
+                          class="img-fluid"
+                          alt="100%x280"
+                          src="/images/chicatrensas.jpg"
+                        />
+                        <div class="card-body">
+                          <h4 class="card-title">Special title treatment</h4>
+                          <p class="card-text">
+                            With supporting text below as a natural lead-in to
+                            additional content.
+                          </p>
+                          <button type="button" class="btn btn-dark">
+                            <a
+                              href="http://localhost:3001/producto"
+                              class="ultimo"
+                              >Comprar</a
+                            >
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="row">
+                    <div class="col-md-4 mb-3">
+                      <div class="card">
+                        <img
+                          class="img-fluid"
+                          alt="100%x280"
+                          src="/images/pumachin.jpg"
+                        />
+                        <div class="card-body">
+                          <h4 class="card-title">Special title treatment</h4>
+                          <p class="card-text">
+                            With supporting text below as a natural lead-in to
+                            additional content.
+                          </p>
+                          <button type="button" class="btn btn-dark">
+                            <a
+                              href="http://localhost:3001/producto"
+                              class="ultimo"
+                              >Comprar</a
+                            >
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                      <div class="card">
+                        <img
+                          class="img-fluid"
+                          alt="100%x280"
+                          src="/images/adidaspiba.jpg"
+                        />
+                        <div class="card-body">
+                          <h4 class="card-title">Special title treatment</h4>
+                          <p class="card-text">
+                            With supporting text below as a natural lead-in to
+                            additional content.
+                          </p>
+                          <button type="button" class="btn btn-dark">
+                            <a
+                              href="http://localhost:3001/producto"
+                              class="ultimo"
+                              >Comprar</a
+                            >
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                      <div class="card">
+                        <img
+                          class="img-fluid"
+                          alt="100%x280"
+                          src="/images/adidaspibe.jpg"
+                        />
+                        <div class="card-body">
+                          <h4 class="card-title">Special title treatment</h4>
+                          <p class="card-text">
+                            With supporting text below as a natural lead-in to
+                            additional content.
+                          </p>
+                          <button type="button" class="btn btn-dark">
+                            <a
+                              href="http://localhost:3001/producto"
+                              class="ultimo"
+                              >Comprar</a
+                            >
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="row">
+                    <div class="col-md-4 mb-3">
+                      <div class="card">
+                        <img
+                          class="img-fluid"
+                          alt="100%x280"
+                          src="/images/ultimafoto.jpg"
+                        />
+                        <div class="card-body">
+                          <h4 class="card-title">Special title treatment</h4>
+                          <p class="card-text">
+                            With supporting text below as a natural lead-in to
+                            additional content.
+                          </p>
+                          <button type="button" class="btn btn-dark">
+                            <a
+                              href="http://localhost:3001/producto"
+                              class="ultimo"
+                              >Comprar</a
+                            >
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                      <div class="card">
+                        <img
+                          class="img-fluid"
+                          alt="100%x280"
+                          src="/images/pantalones.jpg"
+                        />
+                        <div class="card-body">
+                          <h4 class="card-title">Special title treatment</h4>
+                          <p class="card-text">
+                            With supporting text below as a natural lead-in to
+                            additional content.
+                          </p>
+                          <button type="button" class="btn btn-dark">
+                            <a
+                              href="http://localhost:3001/producto"
+                              class="ultimo"
+                              >Comprar</a
+                            >
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                      <div class="card">
+                        <img
+                          class="img-fluid"
+                          alt="100%x280"
+                          src="/images/adidasconjunto.jpg"
+                        />
+                        <div class="card-body">
+                          <h4 class="card-title">Special title treatment</h4>
+                          <p class="card-text">
+                            With supporting text below as a natural lead-in to
+                            additional content.
+                          </p>
+                          <button type="button" class="btn btn-dark">
+                            <a
+                              href="http://localhost:3001/producto"
+                              class="ultimo"
+                              >Comprar</a
+                            >
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="logos">
+        <img src="/images/fila.svg" class="top" />
+        <img src="/images/vans.svg" class="top" />
+        <img src="/images/newbalance.svg" class="top" />
+        <img src="/images/converse.svg" class="top" />
+        <img src="/images/champion.svg" class="top" />
+        <img src="/images/puma.svg" class="top" />
+        <img src="/images/nike.svg" class="top" />
+        <img src="/images/adides.svg" class="top" />
+      </div>
+    </main>
+    <%- include('./partials/footer'); -%>
+
+    <script src="https://use.fontawesome.com/16d0549913.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+      integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.css"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
